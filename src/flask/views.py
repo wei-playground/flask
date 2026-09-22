@@ -12,6 +12,7 @@ http_method_funcs = frozenset(
     ["get", "query", "post", "head", "options", "delete", "put", "trace", "patch"]
 )
 
+# make some random changes to trigger analysis
 
 class View:
     """Subclass this class and override :meth:`dispatch_request` to
