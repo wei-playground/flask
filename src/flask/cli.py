@@ -24,6 +24,8 @@ from .globals import current_app
 from .helpers import get_debug_flag
 from .helpers import get_load_dotenv
 
+# test test
+
 if t.TYPE_CHECKING:
     import ssl
 
